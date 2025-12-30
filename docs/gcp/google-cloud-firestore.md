@@ -7,7 +7,7 @@ If you want to use Cloud Firestore as the database provider for the Sync Server 
 | Variable | Description |
 | :--- | :--- |
 | `GCF_QUEUE_LH` | Specifies which collection in Cloud Firestore to use for the Lighthouse message queue. This is a Firestore collection **path**. Default is `queue-lighthouse`. |
-| `GCF_QUEUE_PHPCS` | Specifies which collection in CLoud Firestore to use for the PHPCS message queue. This is a Firestore collection **path**. Default is `queue-phpcs`. |
+| `GCF_QUEUE_PHPCS` | Specifies which collection in Cloud Firestore to use for the PHPCS message queue. This is a Firestore collection **path**. Default is `queue-phpcs`. |
 
 ## Setup
 
