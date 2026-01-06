@@ -10,7 +10,7 @@ serving a theme and a REST API.
 
 ## Commands
 
-There are several `make` commands you can use to manage the Tide services. Some you run manually, and some are ran by other `make` commands — these are the root level ones. There are additional commands associated with each service, which we'll see later in this section. If you run `make` from the root directory a full list of commands will output to your shell.
+There are several `make` commands you can use to manage the Tide services. Some you run manually, and some are run by other `make` commands — these are the root level ones. There are additional commands associated with each service, which we'll see later in this section. If you run `make` from the root directory a full list of commands will output to your shell.
 
 | Command | Description |
 | :--- | :--- |

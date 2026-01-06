@@ -76,7 +76,7 @@ The following demonstrates how a WordPress theme is run through a Lighthouse aud
 
 ![](../images/lighthouse-server-checksum.png)
 
-1. The source code is ran through `gocloc` to get code information.
+1. The source code is run through `gocloc` to get code information.
 
 ![](../images/lighthouse-server-code-info.png)
 

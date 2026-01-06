@@ -8,12 +8,12 @@ All the goroutines are deployed to a Kubernetes cluster with the same basic step
 
 | Variable | Description |
 | :--- | :--- |
-| `GKE_LH_CLUSTER` | The name of the cluster. Default is`lighthouse-server`. |
+| `GKE_LH_CLUSTER` | The name of the cluster. Default is `lighthouse-server`. |
 | `GKE_LH_CLUSTER_VERSION` | The Kubernetes version to use for the master and nodes. You can check which Kubernetes versions are default and available in a given zone by running the following command: |
 | | `gcloud container get-server-config --zone [COMPUTE-ZONE]` |
 | `GKE_LH_CPU_PERCENT` | The average percent CPU utilization across all pods. Must be a range of `1-100`. |
 | `GKE_LH_DISK_SIZE` | Size in GB for node VM boot disks. An example value is `100`. |
-| `GKE_LH_IMAGE` | The name of the Docker image. Default is`lighthouse-server`. |
+| `GKE_LH_IMAGE` | The name of the Docker image. Default is `lighthouse-server`. |
 | `GKE_LH_MACHINE_TYPE` | The type of machine to use for nodes. An example value is `n1-standard-1`. |
 | `GKE_LH_MAX_NODES` | Maximum number of nodes to which the node pool can scale. |
 | `GKE_LH_MAX_PODS` |  Maximum number of Pods you want to run based on the CPU utilization of your existing Pods. |

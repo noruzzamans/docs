@@ -6,7 +6,7 @@ Deploying a database to Cloud SQL for the WordPress API only requires a bit of c
 
 | Variable | Description |
 | :--- | :--- |
-| `GCSQL_API_BACKUP_START_TIME` | he start time of daily backups, specified in the 24 hour format - HH:MM, in the UTC timezone. This is the window of time when you would like backups to start. [Learn more](https://cloud.google.com/sql/docs/mysql/instance-settings#backups-and-binary-logging-2ndgen). |
+| `GCSQL_API_BACKUP_START_TIME` | The start time of daily backups, specified in the 24 hour format - HH:MM, in the UTC timezone. This is the window of time when you would like backups to start. [Learn more](https://cloud.google.com/sql/docs/mysql/instance-settings#backups-and-binary-logging-2ndgen). |
 | `GCSQL_API_DATABASE_VERSION` | The database engine type and version. Must be one of: `MYSQL_5_6`, `MYSQL_5_7`. |
 | `GCSQL_API_DB_NAME` | Name of the database. |
 | `GCSQL_API_DB_PASSWORD` | Password used to access the database. |
