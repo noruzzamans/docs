@@ -14,7 +14,7 @@ If you are going to use any GCP resources for local development or plan to deplo
 
 ## Service Account
 
-Go to the [Credentials](https://console.cloud.google.com/apis/credentials/) section of your project in the Console. Click **Create credentials** and then click **Service account key**. For the Service account, select **App Engine app default service account**. Then click **Create** to generate and download the JSON service account key file to your local machine. Save the file as `service-account.json` in the projects root directory. We will use this file to connect to Google Cloud Platform services and API's like Cloud Storage and Cloud SQL.
+Go to the [Credentials](https://console.cloud.google.com/apis/credentials/) section of your project in the Console. Click **Create credentials** and then click **Service account key**. For the Service account, select **App Engine app default service account**. Then click **Create** to generate and download the JSON service account key file to your local machine. Save the file as `service-account.json` in the projects root directory. We will use this file to connect to Google Cloud Platform services and APIs like Cloud Storage and Cloud SQL.
 
 _If **App Engine app default service account** is missing from the list of service accounts, then you haven't activated App Engine for your project or it is still initializing._
 
