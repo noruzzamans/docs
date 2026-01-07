@@ -21,7 +21,7 @@ This project and everyone participating in it is governed by the [Tide Code of C
 ## Pull Request Guidelines
 
 - Checkout a topic branch from `develop` and merge back against `develop`.
-    - If you are not familiar with branching please read [_A successful Git branching model_](http://nvie.com/posts/a-successful-git-branching-model/) before you go any further.
+    - If you are not familiar with branching please read [_A successful Git branching model_](https://nvie.com/posts/a-successful-git-branching-model/) before you go any further.
 - If adding a new feature:
     - Add accompanying test case.
     - Provide a convincing reason to add this feature. Ideally, you should open a suggestion issue first and have it green-lit before working on it.
